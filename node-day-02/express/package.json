@@ -1,0 +1,15 @@
+{
+  "name": "express-http",
+  "version": "1.0.0",
+  "description": "my first express http server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "ndoe --watch index.js"
+  },
+  "author": "dev.meipuru",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

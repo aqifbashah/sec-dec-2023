@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(233, 233, 233);
+}
+
+body {
+  background-color: rgb(53, 47, 65);
+}
+
+h1 {
+  font-size: 52px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+button {
+  all: unset;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(52, 51, 109);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(52, 51, 109, 0.432);
+}

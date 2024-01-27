@@ -1,0 +1,634 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  scroll-behavior: smooth;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+h3 {
+  color: #474747;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 11.2px;
+}
+
+h2 {
+  color: #2d2d2d;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* section-1 */
+
+.section-1 {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+      181deg,
+      rgba(0, 0, 0, 0.2) 0.91%,
+      rgba(255, 255, 255, 0) 116.71%,
+      rgba(255, 255, 255, 0) 116.72%
+    ),
+    url("./assets/image-1.jpeg"), #c4c4c4;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-1 > header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 30px;
+}
+
+.section-1 > header > nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title > h3 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 16.5px;
+}
+
+.title > h2 {
+  color: #fff;
+  font-size: 250px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button-group {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.button-group > * {
+  width: 417px;
+  height: 108px;
+  padding: 30px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+}
+
+.button-group > div > div > h4 {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.button-group > div > div > h5 {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.4;
+}
+
+/* section-2 */
+
+.section-2 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+}
+
+.section-2 > div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.section-2 > .activities {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.section-2 > .activities > * {
+  width: 351px;
+  height: 620px;
+  background-color: gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  gap: 15px;
+  padding: 50px 40px;
+}
+
+.section-2 > .activities > * > h5 {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.section-2 > .activities > * > h6 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.section-2 > .activities > .hiking {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.54) -32.98%,
+      rgba(255, 255, 255, 0) 63.99%
+    ),
+    url(./assets/hiking.jpeg), #c4c4c4;
+  background-size: cover;
+  background-position: right 50% top 0px;
+}
+
+.section-2 > .activities > .sailing {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.54) -32.98%,
+      rgba(255, 255, 255, 0) 63.99%
+    ),
+    url(./assets/Sailing.jpeg), #c4c4c4;
+  background-size: cover;
+  background-position: right 50% top 0px;
+}
+
+.section-2 > .activities > .skiing {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.54) -32.98%,
+      rgba(255, 255, 255, 0) 63.99%
+    ),
+    url(./assets/Skiing.jpeg), #c4c4c4;
+  background-size: cover;
+  background-position: right 50% top 0px;
+}
+
+.section-2 > .activities > .kayaking {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.54) -32.98%,
+      rgba(255, 255, 255, 0) 63.99%
+    ),
+    url(./assets/Kayaking.jpeg), #c4c4c4;
+  background-size: cover;
+  background-position: right 50% top 0px;
+}
+
+/* section-3 */
+
+.section-3 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.section-3 > header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-3 > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  gap: 80px;
+}
+
+.section-3 > div > :first-child {
+  width: 872px;
+  height: 643px;
+  border-radius: 10px;
+  background: url(./assets/about-us.jpeg), #c4c4c4;
+  background-size: cover;
+}
+
+.cell-1 {
+  width: 80px;
+  color: #9b9b9b;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+.cell-2 {
+  width: 441px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+}
+
+.cell-2 > h4 {
+  color: #3d3d3d;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.cell-2 > h5 {
+  color: #6d6d6d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+/* section-4 */
+
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+  padding: 100px;
+}
+
+.section-4 > header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-4 > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-4 > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-4 > div > div > figure {
+  width: 507px;
+  height: 323px;
+  border-radius: 8px;
+}
+
+.reine > figure {
+  background: url(./assets/reine.jpeg), #959595;
+  background-size: cover;
+}
+
+.norway > figure {
+  background: url(./assets/norway.jpeg), #959595;
+  background-size: cover;
+}
+
+.bergen > figure {
+  background: url(./assets/bergen.jpeg), #959595;
+  background-size: cover;
+}
+
+.section-4 > div > div > h4 {
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.gray-box {
+  width: 100%;
+  height: 313px;
+  position: absolute;
+  background-color: #f4f4f4;
+  top: 360px;
+}
+
+.section-5 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+
+.section-5 > header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-5 > .partner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.section-5 > .partner > figure {
+  width: 222px;
+  height: 150px;
+}
+
+.microsoft {
+  background: url(./assets/microsoft.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.magento {
+  background: url(./assets/magento.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lakehouse {
+  background: url(./assets/lakehouse.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.midea {
+  background: url(./assets/midea.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-5 > .qoutes {
+  width: 1660px;
+  height: 544px;
+  border-radius: 10px;
+  background: url(./assets/image-2.jpeg);
+  background-size: 150%;
+  background-position: right 90% top 52%;
+  background-repeat: no-repeat;
+}
+
+.section-5 > .qoutes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+}
+
+.section-5 > .qoutes > article > :first-child {
+  width: 350px;
+  height: 205px;
+  position: relative;
+}
+
+.section-5 > .qoutes > article > div > .qoute-box {
+  width: 350px;
+  height: 192px;
+  border-radius: 10px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  padding: 40px;
+}
+
+.section-5 > .qoutes > article > div > svg {
+  position: absolute;
+  left: 35px;
+  bottom: 0;
+}
+
+.section-5 > .qoutes > article > div > .qoute-box > svg {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  z-index: 1;
+}
+
+.section-5 > .qoutes > article > div > .qoute-box > div > p {
+  color: #474747;
+  font-feature-settings: "liga" off;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px; /* 166.667% */
+}
+
+.section-5 > .qoutes > article > :last-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.section-5 > .qoutes > article > div > .janecooper {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 56px;
+  background: url(./assets/janecooper.png);
+  background-size: cover;
+}
+
+.section-5 > .qoutes > article > div > .alanjackson {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 56px;
+  background: url(./assets/alanjackson.png);
+  background-size: cover;
+}
+
+.section-5 > .qoutes > article > div > .janecooper-2 {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 56px;
+  background: url(./assets/janecooper-2.png);
+  background-size: cover;
+}
+
+.section-5 > .qoutes > article > :last-child > :last-child > h5 {
+  color: #fff;
+  font-feature-settings: "liga" off;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+}
+
+.section-5 > .qoutes > article > :last-child > :last-child > h6 {
+  color: #fff;
+  font-feature-settings: "liga" off;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  opacity: 0.7;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  height: 50vh;
+  background: #0c2f3a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+footer > :first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+footer > div > .footer-logo {
+  width: 67px;
+  height: 67px;
+  border-radius: 67px;
+  background: #5f3e2c;
+  padding: 9px;
+}
+
+footer > div > h5 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 6px;
+  opacity: 0.9;
+}
+
+footer > nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+footer > hr {
+  width: 80%;
+}
+
+footer > :last-child {
+  width: 100%;
+  color: #fff;
+  font-feature-settings: "liga" off;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px;
+}
+
+footer > :last-child > div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

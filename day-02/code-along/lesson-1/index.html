@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- this html refer to an extrenal css file -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- internal css write inside head -->
+    <style>
+      /* DRY - do no repeat */
+      .blue-span {
+        display: block;
+        background-color: blue;
+      }
+      .box-2 {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello world hello mom</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+      nesciunt dolorum ea aliquid amet architecto dolorem quod reprehenderit
+      ducimus distinctio.
+    </p>
+    <h2>Hello world this is H2</h2>
+    <a href="https://x.com">My Twitter</a>
+
+    <!-- inline css -->
+    <span style="display: block">This is a span 1</span>
+
+    <!-- internal css -->
+    <span class="blue-span">This is a span 2</span>
+    <span class="blue-span">This is a span 3</span>
+
+    <!-- external css -->
+    <div class="red-box">
+      <p>Box 1</p>
+    </div>
+
+    <div class="box-2"><p>Box 2</p></div>
+    <h3>This is H3 headings</h3>
+    <button>Press me</button>
+    <input type="text" placeholder="Insert email" />
+  </body>
+</html>

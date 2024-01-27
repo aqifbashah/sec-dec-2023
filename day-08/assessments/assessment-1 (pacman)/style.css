@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(17, 17, 36);
+}
+
+main {
+  width: 800px;
+  /* height: 800px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  outline: 10px solid blue;
+  border-radius: 5px;
+}
+
+.pacman {
+  position: absolute;
+  width: 98px;
+  height: 98px;
+  background: yellow;
+  border: 1px solid gray;
+  border-radius: 100%;
+  /* top: 0;
+    left: 0; */
+}
+
+.grid {
+  width: 100px;
+  height: 100px;
+  outline: 1px dashed rgb(90, 90, 90);
+  background-color: rgb(32, 32, 71);
+}
+
+body > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  all: unset;
+}
+
+div > div > button {
+  background-color: rgb(92, 92, 92);
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+}
+
+div > div > button:active {
+  background-color: white;
+}

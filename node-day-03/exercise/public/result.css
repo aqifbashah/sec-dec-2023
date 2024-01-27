@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgb(111, 99, 139);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}

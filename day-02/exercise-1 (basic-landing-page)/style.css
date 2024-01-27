@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* section-a */
+
+.section-a {
+  position: relative;
+  height: 90px;
+}
+
+.column-a1 {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background-color: #c4c4c4;
+  left: 20px;
+  top: 30px;
+  text-align: center;
+}
+
+.column-a1 p {
+  padding: 5px 0;
+}
+
+.column-a2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.column-a2 span {
+  padding: 30px;
+}
+
+.column-a3 {
+  position: absolute;
+  right: 30px;
+  top: 35px;
+}
+
+/* section-b */
+
+.section-b {
+  position: relative;
+  height: 400px;
+  background-color: #c4c4c4;
+  text-align: center;
+}
+
+.section-b p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* section-c */
+
+.section-c {
+  position: relative;
+  width: 1100px;
+  height: 700px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.box {
+  position: absolute;
+  height: 300px;
+  width: 450px;
+  background-color: #c4c4c4;
+}
+
+.text {
+  position: absolute;
+  height: 300px;
+  width: 450px;
+}
+
+.c1 {
+  top: 10px;
+  left: 50px;
+}
+
+.c2 {
+  top: 30px;
+  right: 50px;
+}
+
+.c3 {
+  top: 320px;
+  right: 50px;
+}
+
+.c4 {
+  top: 350px;
+  left: 50px;
+}
+
+/* footer */
+
+footer {
+  position: relative;
+  height: 120px;
+}
+
+footer .icons {
+  position: absolute;
+  height: 90px;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icons a {
+  padding: 0 20px;
+}
+
+.copyright {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,11 @@
+{
+  "name": "node-day-1",
+  "version": "1.0.0",
+  "description": "this is my first nodejs module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dev.meipuru",
+  "license": "ISC"
+}

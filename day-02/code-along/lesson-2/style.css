@@ -1,0 +1,105 @@
+/* inline block */
+
+.parent-a {
+  width: 800px;
+  height: 400px;
+  background-color: lightgray;
+}
+
+.child-a1 {
+  width: 100px;
+  height: 100px;
+  background-color: #3d9ffa;
+  display: inline-block;
+}
+
+.child-a2 {
+  width: 100px;
+  height: 100px;
+  background-color: #31830b;
+  display: inline-block;
+}
+
+.child-a3 {
+  width: 100px;
+  height: 100px;
+  background-color: #e1cb05;
+  display: inline-block;
+}
+
+/* relative and absolute */
+
+.parent-b {
+  width: 800px;
+  height: 400px;
+  background-color: lightgray;
+  /* parent always relative */
+  position: relative;
+}
+
+.child-b1 {
+  width: 100px;
+  height: 100px;
+  background-color: #3d9ffa;
+  /* children always absolute */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.child-b2 {
+  width: 100px;
+  height: 100px;
+  background-color: #31830b;
+  /* children always absolute */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.child-b3 {
+  width: 100px;
+  height: 100px;
+  background-color: #e1cb05;
+  /* children always absolute */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.parent-c {
+  width: 800px;
+  height: 400px;
+  background-color: lightgray;
+  position: relative;
+}
+
+.child-c1 {
+  width: 100px;
+  height: 100px;
+  background-color: #3d9ffa;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.child-c2 {
+  width: 100px;
+  height: 100px;
+  background-color: #31830b;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 2;
+}
+
+.child-c3 {
+  width: 100px;
+  height: 100px;
+  background-color: #e1cb05;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: 1;
+}

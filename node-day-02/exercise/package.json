@@ -1,0 +1,15 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "exercise for node-day-2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "author": "dev.meipuru",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

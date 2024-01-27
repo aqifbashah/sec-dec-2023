@@ -1,0 +1,35 @@
+body {
+  background-color: green;
+  color: white;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+}
+
+form button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+  background-color: #ff0000;
+  color: white;
+  font-weight: bold;
+}

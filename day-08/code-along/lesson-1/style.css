@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 800px;
+  /* height: 800px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.pacman {
+  position: absolute;
+  width: 98px;
+  height: 98px;
+  background: yellow;
+  border: 1px solid gray;
+  border-radius: 100%;
+  /* top: 0;
+    left: 0; */
+}
+
+.grid {
+  width: 100px;
+  height: 100px;
+  outline: 1px solid gray;
+  background-color: white;
+}

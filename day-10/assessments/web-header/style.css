@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+body {
+  height: 100vh;
+  background: url(./assets/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: white;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#menuDesktop {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1rem;
+  color: rgb(211, 211, 211);
+}
+
+#menuDesktop > li > a {
+  all: unset;
+}
+
+#menuDesktop > li > a:hover {
+  color: white;
+}
+
+#openMenuMobile {
+  all: unset;
+  display: none;
+  cursor: pointer;
+}
+
+.bi-list {
+  font-size: 30px;
+}
+
+#menuMobileList {
+  display: flex;
+  /* convert to display flex by using javascript */
+  flex-direction: column;
+  list-style: none;
+  gap: 1rem;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.28);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.5px);
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+#menuMobileList > a {
+  all: unset;
+  cursor: pointer;
+
+  color: rgb(211, 211, 211);
+}
+
+#menuMobileList > a:hover {
+  color: white;
+}
+
+#closeMenuMobile {
+  all: unset;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  #menuDesktop {
+    display: none;
+  }
+
+  #openMenuMobile {
+    display: block;
+  }
+}

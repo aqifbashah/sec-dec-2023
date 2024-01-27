@@ -1,0 +1,16 @@
+[
+  {
+    "username": "username",
+    "weight": "0",
+    "height": "0",
+    "bmi": "0",
+    "bmiClass": "testing"
+  },
+  {
+    "username": "meipuru",
+    "weight": "70",
+    "height": "1.8",
+    "bmi": 21.604938271604937,
+    "bmiClass": "Normal"
+  }
+]

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background: linear-gradient(to top right, darkGray, gray);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main > * {
+  margin: 1rem auto;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0 0 1px black;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1rem;
+  color: white;
+  text-shadow: 0 0 1px black;
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator 2.0</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <section class="main">
+      <h1>BMI Calculator 2.0</h1>
+      <form action="/" method="POST">
+        <h2>Username</h2>
+        <input
+          type="text"
+          name="username"
+          placeholder="Insert your name"
+          required
+        />
+        <!-- input weight -->
+        <h2>Insert your weight in Kilograms (Kg)</h2>
+        <input
+          type="integer"
+          name="weight"
+          placeholder="Weight in Kilograms"
+          required
+        />
+        <!-- Input height in meter -->
+        <h2>Insert your height in Meters (m)</h2>
+        <input type="integers" name="height" placeholder="Height in Meters" />
+        <button type="submit">Calculate</button>
+      </form>
+    </section>
+  </body>
+</html>

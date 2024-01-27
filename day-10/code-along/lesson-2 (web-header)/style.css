@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#menuDesktop {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1rem;
+}
+
+#openMenuMobile {
+  display: none;
+}
+
+#menuMobileList {
+  display: none;
+  /* convert to display flex by using javascript */
+  flex-direction: column;
+  list-style: none;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: yellow;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  min-width: 200px;
+}
+
+@media (max-width: 600px) {
+  #menuDesktop {
+    display: none;
+  }
+
+  #openMenuMobile {
+    display: block;
+  }
+}
