@@ -2,6 +2,8 @@ import pool from "../database/connection.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 
+import { decrypt, encrypt } from "../utils/encyption.js";
+
 export async function register(req, res) {
   try {
     const reqBody = req.body;
