@@ -29,7 +29,7 @@ export async function createTodosTable() {
         description TEXT,
         user_id INTEGER REFERENCES "Users"(id)
     );
-      `;
+    `;
     await pool.query(query);
     console.log("Todos table craeted successfully");
   } catch (error) {
