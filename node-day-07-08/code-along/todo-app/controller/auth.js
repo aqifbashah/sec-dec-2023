@@ -2,7 +2,7 @@ import pool from "../database/connection.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 
-import { decrypt, encrypt } from "../utils/encyption.js";
+import { decrypt, encrypt } from "../utils/encryption.js";
 
 export async function register(req, res) {
   try {
