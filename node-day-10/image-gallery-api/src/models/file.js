@@ -17,7 +17,7 @@ export async function createFilesTable() {
 
   pool
     .query(query)
-    .then((res) => {
+    .then(() => {
       console.log("files table created");
     })
     .catch((err) => {
