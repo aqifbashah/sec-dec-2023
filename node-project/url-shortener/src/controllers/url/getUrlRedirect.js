@@ -9,8 +9,8 @@ async function getUrlRedirect(req, res) {
     `;
     const statusCheck = await pool.query(queryCheckStatus, [shortCode]);
 
-    if (statusCheck !== "active") {
-      return res.status(404).json({ message: "URL is inactive" });
+    if (statusCheck.rows[0].status !== "active") {
+      return res.status(404).json({ message: "URL is not active" });
     }
 
     const query = `
